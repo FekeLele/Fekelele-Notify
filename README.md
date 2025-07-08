@@ -33,6 +33,8 @@ exports['Fekelele_Notify']:notify("Notification test", "success", 5000)
 
 ```lua
 function ESX.ShowNotification(message, type, title, length)
-    TriggerEvent('fFekelele_notify:show', message, type or 'info', length or 5000)
+    TriggerEvent('Fekelele_notify:showw', message, type or 'info', length or 5000)
 end
+
 ```
+
